@@ -29,5 +29,6 @@ gulp.task("build:css", function() {
 
 gulp.task("serve", ["browser-sync"], function() {
   gulp.watch("scss/**/*.scss", ["build:css"]);
+  gulp.watch("js/**/*.js", browserSync.reload);
   gulp.watch("*.html", browserSync.reload)
 });
