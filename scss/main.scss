@@ -5,7 +5,7 @@ body {
 
 html {
   font-size: calc(1em + 1vw);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -13,19 +13,23 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 
 h1 {
-  margin-bottom: 0;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
 }
 
 .emoji {
-  font-size: 10rem;
-  font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+  font-size: 5rem;
+  // font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
   margin: 0;
+  flex: 1;
 }
 
 footer {
   font-size: .75rem;
   margin: 0;
+  align-item: flex-end;
 }
