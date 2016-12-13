@@ -3,7 +3,8 @@ body {
   height: 100%; }
 
 html {
-  font-size: calc(1em + 1vw); }
+  font-size: calc(1em + 1vw);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
 
 body {
   display: -ms-flexbox;
@@ -17,16 +18,17 @@ body {
   margin: 0; }
 
 h1 {
-  margin-bottom: 4rem;
-  font-size: 1.5rem; }
+  margin-bottom: .1em;
+  margin-top: .25em;
+  font-size: 2rem; }
 
 .emoji {
-  font-size: 5rem;
-  margin: 0;
+  font-size: 3rem;
+  font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+  margin-top: 5vw;
   -ms-flex: 1;
       flex: 1; }
 
 footer {
   font-size: .75rem;
-  margin: 0;
-  align-item: flex-end; }
+  margin-top: 1em; }

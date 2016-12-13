@@ -8,6 +8,11 @@
     return array[Math.floor(Math.random() * array.length)];
   }
 
-  document.querySelector(".emoji").innerHTML = randomFromArray(emojis);
+  function render(emoji) {
+    document.querySelector(".emoji").innerHTML = emoji;
+    document.querySelector("title").innerHTML  = emoji;
+  }
+
+  render(randomFromArray(emojis));
 
 })();
