@@ -8,11 +8,21 @@
     return array[Math.floor(Math.random() * array.length)];
   }
 
-  function render(emoji) {
+  function render() {
+    var emoji = randomFromArray(emojis);
+
     document.querySelector(".emoji").innerHTML = emoji;
     document.querySelector("title").innerHTML  = emoji;
   }
 
-  render(randomFromArray(emojis));
+  render();
+
+  document.querySelector("button.new").addEventListener("click", render);
+
+  new Clipboard("button.copy", {
+    target: function(trigger) {
+      return document.querySelector("#emoji");
+    }
+  });
 
 })();
