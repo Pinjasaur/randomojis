@@ -11,8 +11,12 @@
     "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
     "gulp-load-plugins": "^1.4.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.0.0"
+    "gulp-sass": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
   }
 }
